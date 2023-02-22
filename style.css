@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(231, 231, 216);
+}
+header{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #2874f0;
+    font-family: 'lato',sans-serif;
+}
+
+
+.imga{
+    display: inline-block;
+    align-items: center;
+    padding-left: 60px;
+    margin-top: 2vh;
+        
+}
+.imga img{
+    height: 5vh;
+    color: white;
+   font-weight: bold;
+}
+ul{
+    display: flex;
+   align-items: center;
+   height: 58px;
+   padding-left: 1vw;
+}
+nav{
+    padding-right: 2vw;
+}
+ul li{
+  list-style: none;
+  padding-left: 2vw;
+ 
+
+}
+ul li a{
+    color: aqua;
+    text-decoration: none;
+}
+ li a:hover{
+    color: rgb(52, 99, 83);
+
+}
+header .search{
+    display: inline-block;
+   
+    margin-top:2vh ;
+    padding-left: 10px;
+}
+header .search input{
+    height: 7vh;
+width: 38vw;
+}
+header .search input:hover{
+     box-shadow: -5px 2px 16px -2px rgba(20,18,18,1);
+    -webkit-box-shadow: -5px 2px 16px -2px rgba(20,18,18,1);
+    -moz-box-shadow: -5px 2px 16px -2px rgba(20,18,18,1);;
+}
+header .serimg  {
+    display: inline-block;
+   
+    margin-top: 2.3vh;
+}
+header .serimg img{
+    height: 7vh;
+    width: 3vw;
+}
+header .serimg img:hover{
+    box-shadow: -5px 2px 16px -2px rgba(20,18,18,1);
+    -webkit-box-shadow: -5px 2px 16px -2px rgba(20,18,18,1);
+    -moz-box-shadow: -5px 2px 16px -2px rgba(20,18,18,1);;
+}
+header .login {
+    display: inline-block;
+    margin-top: 4vh;
+    padding-left: 2vw;
+   
+   
+}
+header .login input{
+    color:black;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    height: 6vh;
+    width: 9vw;
+
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ header .login input:hover{
+
+  background-color: grey;
+}
+header .fav {
+    display: inline-block;
+    margin-top: 4vh;
+    padding-left: 2vw;
+}
+header .fav img{
+    height: 7vh;
+    width: 4vw;
+}
+main{
+    min-height: calc(100vh - 58px - 20vh);
+}
+.header{
+    display: flex;
+height: 22vh;
+width: 100%;
+
+background-color: white;
+
+
+}
+.header:hover{
+    color: blue;
+}
+.header img{
+    height: 12vh;
+    margin-top: 4vh;
+}
+.header .mobile{
+    padding-left: 5vw;
+    
+}
+.header .fashin{
+    padding-left: 5vw;
+    
+}
+.header .elec{
+    padding-left: 5vw;
+    
+}
+.header .fur{
+    padding-left: 5vw;
+    
+}
+.header .appl{
+    padding-left: 5vw;
+    
+}
+.header .to{
+    padding-left: 5vw;
+    
+}
+.header .appl{
+    padding-left: 5vw;
+    
+}
+.header .groc{
+    padding-left: 5vw;
+    
+}
+
+.header .tra{
+    padding-left: 5vw;
+    
+}
+
+
+main .slider {
+   
+display: flex;
+justify-content: center;
+align-items: center;
+    margin-top: 2vh;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(10,12,14,1) 100%);
+}
+.slider  img{
+   
+    height: 52vh;
+    width: 74vw;
+}
+  .slide1, .slide2,.slide3,.slide4{
+  
+    position: absolute;
+    width:300px;
+    height: 250px;
+   
+}
+.slide1{
+    animation: fade1 10s infinite;
+}
+.slide2{
+    animation: fade2 10s infinite;
+}
+.slide3{
+    animation: fade3 10s infinite;
+}
+.slide4{
+    animation: fade4 10s infinite;
+}
+
+@keyframes fade1 {
+        0%{opacity: 1;}
+        25%{opacity: 0;}
+        50%{opacity: 0;}
+       75%{opacity: 0;}
+        100%{opacity: 1;}
+}
+@keyframes fade2{
+    0%{opacity: 0;}
+    25%{opacity: 1;}
+    50%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@keyframes fade3{
+    0%{opacity: 0;}
+    25%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+}
+@keyframes fade4{
+    0%{opacity: 0;}
+    25%{opacity: 0;}
+    50%{opacity: 0;}
+    75%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.container{
+    height: 48vh;
+    width: 98.3%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    margin: 3vh;
+   
+}
+.container .contain1{
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 37vh;
+    width: 13vw;
+padding: 5vw;
+background-color: white;
+}
+.container .contain1 img{
+    height: 19vh;
+    padding-left: 2vw;
+}
+.container .contain1{
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 37vh;
+    width: 13vw;
+padding: 2vw;
+background-color: white;
+}
+.container .contain1 img{
+    height: 19vh;
+    padding-left: 2vw;
+}
+.container .contain2{
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 37vh;
+    width: 13vw;
+padding: 2vw;
+background-color: white;
+}
+.container .contain2 img{
+    height: 19vh;
+    padding-left: 2vw;
+}
+.container .contain3{
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 37vh;
+    width: 13vw;
+padding: 2vw;
+background-color: white;
+}
+.container .contain3 img{
+    height: 19vh;
+    padding-left: 2vw;
+}
+.container .contain4{
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 37vh;
+    width: 13vw;
+padding: 2vw;
+background-color: white;
+}
+.container .contain4 img{
+    height: 19vh;
+    padding-left: 2vw;
+}
+.container  input{
+    height: 6vh;
+    width: 10vw;
+    line-height: 2;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 3px;
+    background-color: #0fef0f;;
+    color: rgb(255, 255, 255);
+    margin-top: 2vh;
+}
+.container  input:hover{
+    background-color:lightgreen;
+}
+.container input:active{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.container .contain1:hover,.contain2:hover,.contain3:hover,.contain4:hover{
+    box-shadow: -7px -5px 19px -1px rgba(0,0,0,1);
+-webkit-box-shadow: -7px -5px 19px -1px rgba(0,0,0,1);
+-moz-box-shadow: -7px -5px 19px -1px rgba(0,0,0,1);
+}
+
+footer{
+    background-color:  #2874f0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+footer .copy{
+    height: 26px;
+
+}
+@media screen and (max-width:600px){
+    header{
+       height: 99px;
+    }
+    .imga{
+        
+        padding-left: 3px;
+        margin-top: 2vh;
+            
+    }
+    .imga img{
+        height: 2vh;
+    }
+    ul{
+        display: inline;
+       height: 24px;
+      
+    }
+    nav{
+        padding-right: 1vw;
+    }
+    ul li{
+      padding-left: 1vw;
+    }
+    header .search{
+      margin-top: 3vh;
+        padding-left: 3px;
+    }
+    header .search input{
+        height: 2vh;
+    
+    }
+    header .serimg  {
+        margin-top: 3.3vh;
+    }
+    header .serimg img{
+        height: 3vh;
+        width: 1vw;
+    }
+}
